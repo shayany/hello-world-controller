@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'shayman'
           slot-name: 'Production'
-          package: '/home/runner/work/hello-world-controller/hello-world-controller/**/*.jar'
+          package: '${{ github.workspace }}/target/java-app.jar'
           
