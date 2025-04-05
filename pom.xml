@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>webapp-for-azure</name>
     <description>webapp-for-azure</description>
+    <packaging>jar</packaging>
     <url/>
     <licenses>
         <license/>

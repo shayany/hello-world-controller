@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'shayman'
           slot-name: 'Production'
-          package: '$(System.DefaultWorkingDirectory)/target/*.jar'
+          package: '*.jar'
 
