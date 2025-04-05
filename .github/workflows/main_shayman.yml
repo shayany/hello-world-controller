@@ -47,7 +47,7 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: webapp-for-azure
+          name: java-app
       
       - name: Login to Azure
         uses: azure/login@v2
