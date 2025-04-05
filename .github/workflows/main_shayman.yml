@@ -52,9 +52,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.__clientidsecretname__ }}
-          tenant-id: ${{ secrets.__tenantidsecretname__ }}
-          subscription-id: ${{ secrets.__subscriptionidsecretname__ }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_8E913AB319724C86A7C4D64C424B69E4 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_9C73CE84A0F941AF94A55E98A9625C57 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F5763CCD47DB4F9989C5AE0B53ABD500 }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -63,3 +63,4 @@ jobs:
           app-name: 'shayman'
           slot-name: 'Production'
           package: '*.war'
+
