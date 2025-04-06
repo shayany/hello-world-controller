@@ -13,7 +13,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>webapp-for-azure</name>
     <description>webapp-for-azure</description>
-    <packaging>war</packaging>
     <url/>
     <licenses>
         <license/>
