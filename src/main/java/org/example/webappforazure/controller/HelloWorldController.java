@@ -14,6 +14,6 @@ public class HelloWorldController {
 
     @GetMapping("/hello/{name}")
     public ResponseEntity<String> sayHello(@PathVariable String name) {
-        return new ResponseEntity<String>("Hello, " + name + "!", HttpStatus.OK);
+        return new ResponseEntity<String>("Hello, " + name + " (STM)!", HttpStatus.OK);
     }
 }
